@@ -1,0 +1,8 @@
+{
+  "short_name": "List",
+  "name": "List-React",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "rgb(95, 152, 152)",
+  "background_color": "rgb(239, 250, 251)"
+}

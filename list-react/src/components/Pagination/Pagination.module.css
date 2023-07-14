@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  justify-content: right;
+  padding-right: 7em;
+  padding-bottom: 2em;
+}
+
+button {
+  cursor: pointer;
+  color: rgb(95, 152, 152);
+  border: none;
+  background-color: transparent;
+  text-align: center;
+  padding-top: 0.2em;
+}
+
+button:hover {
+  color: rgb(104, 175, 176);
+}
+
+.pageNumbers {
+  font-size: 0.9em;
+  color: rgb(95, 152, 152);
+  margin: 0.5em;
+}
+
+button:disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+@media only screen and (max-width: 820px) {
+  .container {
+    padding: 1em;
+    padding-right: 2em;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .container {
+    justify-content: center;
+  }
+}

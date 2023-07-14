@@ -1,0 +1,13 @@
+{
+  "name": "my-project",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build"
+  },
+  "devDependencies": {
+    "parcel": "latest"  },
+  "staticFiles": {
+    "staticPath": "src/assets"
+  }
+}

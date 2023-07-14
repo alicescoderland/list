@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  background-color: rgb(95, 152, 152);
+}
+
+.logo {
+  font-family: "Pacifico", cursive;
+  color: rgb(104, 175, 176);
+  font-size: 1.6em;
+}
